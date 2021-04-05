@@ -1,4 +1,4 @@
-package lesson6;
+package JavaCollectionsFramework.lesson6;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

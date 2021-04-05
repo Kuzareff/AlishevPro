@@ -1,7 +1,4 @@
-package lesson4;
-
-import java.util.LinkedList;
-import java.util.List;
+package JavaCollectionsFramework.lesson4;
 
 public class Lesson4 { //LinkedList ч.2 Устройство
     public void runL4() {

@@ -1,4 +1,4 @@
-package lesson8;
+package JavaCollectionsFramework.lesson8;
 
 import java.util.*;
 

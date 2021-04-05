@@ -1,9 +1,8 @@
-package lesson9;
+package JavaCollectionsFramework.lesson10;
 
 import java.util.Objects;
 
 public class Person {
-
     private int id;
     private String name;
 
@@ -29,21 +28,8 @@ public class Person {
     }
 
     @Override
-    public int hashCode() {
-        return Objects.hash(id, name);
+    public int hashCode() { //Хэш функция
+        return 1;
     }
 
-    /*
-        Контракт hashcode() equals():
-
-        1) У двух проверяемых объектов вызываем метод hashcode()
-
-        1.1) Если хэши разные --> два объекта разные.
-
-        1.2) Если хэши одинаковые, то вызывается метод equals()
-
-        2) equals() --> выдает ответ уже точный.
-
-        Это называется контракт!
-     */
 }

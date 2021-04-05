@@ -1,9 +1,7 @@
-package lesson7;
+package JavaCollectionsFramework.lesson7;
 
 import java.util.HashSet;
-import java.util.LinkedHashSet;
 import java.util.Set;
-import java.util.TreeSet;
 
 public class Lesson7 { //Множества Set - хранит только уникальные элементы
     public void runL7 () {

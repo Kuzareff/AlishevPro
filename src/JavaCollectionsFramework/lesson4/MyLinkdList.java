@@ -1,4 +1,4 @@
-package lesson4;
+package JavaCollectionsFramework.lesson4;
 
 import java.util.Arrays;
 
