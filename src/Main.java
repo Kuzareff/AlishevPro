@@ -1,6 +1,10 @@
 import JavaCollectionsFramework.lesson1.Lesson1;
 import JavaCollectionsFramework.lesson10.Lesson10;
 import JavaCollectionsFramework.lesson11.Lesson11;
+import JavaCollectionsFramework.lesson12.Lesson12;
+import JavaCollectionsFramework.lesson13.Lesson13;
+import JavaCollectionsFramework.lesson14.Lesson14;
+import JavaCollectionsFramework.lesson15.Lesson15;
 import JavaCollectionsFramework.lesson2.Lesson2;
 import JavaCollectionsFramework.lesson3.Lesson3;
 import JavaCollectionsFramework.lesson4.Lesson4;
@@ -43,10 +47,19 @@ public class Main {
 //        Lesson10 lesson10 = new Lesson10(); //Устройство HashMap
 //        lesson10.runL10();
 ////************************************************* lesson 11 ********************************************************
-        Lesson11 lesson11 = new Lesson11(); //Интерфейс Comparator
-        lesson11.runL11();
-
-
-
+//        Lesson11 lesson11 = new Lesson11(); //Интерфейс Comparator
+//        lesson11.runL11();
+////************************************************* lesson 12 ********************************************************
+//        Lesson12 lesson12 = new Lesson12(); //Интерфейс Comparable
+//        lesson12.runL12();
+////************************************************* lesson 13 ********************************************************
+//        Lesson13 lesson13 = new Lesson13(); //Очередь Queue
+//        lesson13.runL13();
+////************************************************* lesson 14 ********************************************************
+//        Lesson14 lesson14 = new Lesson14(); //Стэк - Stack
+//        lesson14.runL14();
+////************************************************* lesson 15 ********************************************************
+        Lesson15 lesson15 = new Lesson15(); //Интерфейс Iterable
+        lesson15.runL15();
     }
 }
