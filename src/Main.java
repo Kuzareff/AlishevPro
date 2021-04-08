@@ -13,6 +13,9 @@ import JavaCollectionsFramework.lesson6.Lesson6;
 import JavaCollectionsFramework.lesson7.Lesson7;
 import JavaCollectionsFramework.lesson8.Lesson8;
 import JavaCollectionsFramework.lesson9.Lesson9;
+import JavaMultithreading.lesson16.Lesson16;
+import JavaMultithreading.lesson17.Lesson17;
+import JavaMultithreading.lesson18.Lesson18;
 
 public class Main {
     public static void main(String[] args) {
@@ -59,7 +62,17 @@ public class Main {
 //        Lesson14 lesson14 = new Lesson14(); //Стэк - Stack
 //        lesson14.runL14();
 ////************************************************* lesson 15 ********************************************************
-        Lesson15 lesson15 = new Lesson15(); //Интерфейс Iterable
-        lesson15.runL15();
+//        Lesson15 lesson15 = new Lesson15(); //Интерфейс Iterable
+//        lesson15.runL15();
+////************************************************* lesson 16 ********************************************************
+//        Lesson16 lesson16 = new Lesson16(); //Введение в многопоточность в Java
+//        lesson16.runL16();
+////************************************************* lesson 17 ********************************************************
+//        Lesson17 lesson17 = new Lesson17(); // Ключевое слово volatile
+//        lesson17.runL17();
+////************************************************* lesson 18 ********************************************************
+//        Lesson18 lesson18 = new Lesson18(); //Ключевое слово synchronized I часть
+//        lesson18.runL18();
+
     }
 }
