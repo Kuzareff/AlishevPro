@@ -16,6 +16,10 @@ import JavaCollectionsFramework.lesson9.Lesson9;
 import JavaMultithreading.lesson16.Lesson16;
 import JavaMultithreading.lesson17.Lesson17;
 import JavaMultithreading.lesson18.Lesson18;
+import JavaMultithreading.lesson19.Lesson19;
+import JavaMultithreading.lesson20.Lesson20;
+import JavaMultithreading.lesson21.Lesson21;
+import JavaMultithreading.lesson22.Lesson22;
 
 public class Main {
     public static void main(String[] args) {
@@ -73,6 +77,17 @@ public class Main {
 ////************************************************* lesson 18 ********************************************************
 //        Lesson18 lesson18 = new Lesson18(); //Ключевое слово synchronized I часть
 //        lesson18.runL18();
-
+////************************************************* lesson 19 ********************************************************
+//        Lesson19 lesson19 = new Lesson19(); //Ключевое слово synchronized 2 часть
+//        lesson19.runL19();
+////************************************************* lesson 20 ********************************************************
+//        Lesson20 lesson20 = new Lesson20(); //Пул потоков Thread pool
+//        lesson20.runL20();
+////************************************************* lesson 21 ********************************************************
+//        Lesson21 lesson21 = new Lesson21(); //Паттерн producer - consumer I часть
+//        lesson21.runL21();
+////************************************************* lesson 22 ********************************************************
+        Lesson22 lesson22 = new Lesson22(); //Методы wait и notify
+        lesson22.runL22();
     }
 }
