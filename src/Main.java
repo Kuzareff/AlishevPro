@@ -20,6 +20,8 @@ import JavaMultithreading.lesson19.Lesson19;
 import JavaMultithreading.lesson20.Lesson20;
 import JavaMultithreading.lesson21.Lesson21;
 import JavaMultithreading.lesson22.Lesson22;
+import JavaMultithreading.lesson23.Lesson23;
+import JavaMultithreading.lesson24.Lesson24;
 
 public class Main {
     public static void main(String[] args) {
@@ -87,7 +89,13 @@ public class Main {
 //        Lesson21 lesson21 = new Lesson21(); //Паттерн producer - consumer I часть
 //        lesson21.runL21();
 ////************************************************* lesson 22 ********************************************************
-        Lesson22 lesson22 = new Lesson22(); //Методы wait и notify
-        lesson22.runL22();
+//        Lesson22 lesson22 = new Lesson22(); //Методы wait и notify
+//        lesson22.runL22();
+////************************************************* lesson 23 ********************************************************
+//        Lesson23 lesson23 = new Lesson23(); //Паттерн producer - consumer II часть
+//        lesson23.runL23();
+////************************************************* lesson 24 ********************************************************
+        Lesson24 lesson24 = new Lesson24(); //Класс CountDownLatch
+        lesson24.runL24();
     }
 }
